@@ -1,0 +1,12 @@
+Source: python-django-statsd
+Section: python
+Priority: optional
+Maintainer: Andy McKay <amckay@mozilla.com>
+Homepage: https://github.com/andymckay/django-statsd/
+Build-Depends: debhelper, python-support
+
+Package: python-django-statsd
+Architecture: all
+Depends: ${python:Depends}, python-support, python-pystatsd, python-django
+Provides: ${python:Provides}
+Description: Integration between statsd and django.

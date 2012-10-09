@@ -1,0 +1,5 @@
+python-django-statsd (0.3.8) testing; urgency=low
+
+  * Initial Debian package
+
+ -- Bruno Clermont <bruno.clermont@gmail.com>  Tue,  9 Oct 2012 11:53:00 +0200
